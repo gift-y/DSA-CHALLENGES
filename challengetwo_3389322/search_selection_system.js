@@ -33,7 +33,7 @@ class SearchSuggestionSystem {
 }
 
 // Example usage
-const products = ["jael","jarrod","jake","jason","james"];
-const searchWord = "jael";
+const products = ["mobile","mouse","moneypot","monitor","mousepad"];
+const searchWord = "mouse";
 const system = new SearchSuggestionSystem(products);
 console.log(system.getSuggestions(searchWord));
